@@ -1,0 +1,8 @@
+service: axios-service
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+functions:
+  axios:
+    handler: index.handler
